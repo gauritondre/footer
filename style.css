@@ -1,6 +1,6 @@
 
 .footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0;
   }
@@ -20,16 +20,17 @@
   }
   
   .footer-section h4 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #f4f4f4;
   }
   
-  .footer-section p,
+  /* .footer-section p, */
   .footer-section ul {
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: bold;
     margin: 5px 0;
-    line-height: 1.5;
+    line-height: 1.6;
   }
   
   .footer-section ul {
@@ -42,7 +43,7 @@
   }
   
   .footer-section ul li a {
-    color: #aaa;
+    color: #d0cdcd;
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -51,12 +52,30 @@
     color: #f4f4f4;
   }
 
+  .footer-section .contact p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+
   #contact{
     width: 15px;
     height: 15px;
     padding: 1px;
   }
+
+  .logo {
+    margin-bottom: 8px;
+    margin-top: 17px;
+  }
   
+  .logo img {
+    width: 75px;
+    height: 75px;
+    padding-left: 30px;
+  }
+
   .footer-bottom {
     text-align: center;
     padding: 10px 20px;
@@ -65,27 +84,58 @@
   }
 
   .social-media {
-    margin-bottom: 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 5px;
+    padding-top: 15px;
   }
   
   .social-media a {
     margin: 0 5px;
     display: inline-block;
   }
+
+  .social-media p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
   
-  .social-media img {
-    width: 24px;
-    height: 24px;
+  .social-media  button{
+    background-color: black;
+  color: white;
+  border: 1.5px solid white;
+  padding: 6px 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+    
+  }
+
+  .social-media button:hover {
+  background-color: white;
+  color: black;
+}
+  
+  .social-media i {
+    width: 20px;
+    height: 26px;
+    /* color: #cbc9def2; */
+    color: rgb(184, 194, 236);
     transition: transform 0.3s ease;
   }
-  
-  .social-media a:hover img {
+ 
+  .social-media a:hover  {
     transform: scale(1.2);
-  }
+  } 
   
   .footer-bottom p {
-    font-size: 13px;
+    font-size: 14px;
     color: #aaa;
     margin: 0;
+    letter-spacing: 0.5px;
+    color: rgb(184, 194, 236);
   }
 
